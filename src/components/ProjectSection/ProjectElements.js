@@ -86,6 +86,9 @@ export const Skill = styled.li`
 export const ProjectLinkContainer = styled.div`
     jsutify-content: center;
     text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
 `
 
 export const ProjectLink = styled.a`

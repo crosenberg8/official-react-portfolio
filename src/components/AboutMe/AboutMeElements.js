@@ -15,6 +15,7 @@ export const HeaderContainer = styled.div`
     align-items: center;
 
     @media screen and (max-width: 960px) {
+        
         margin-bottom: 30px;
     }
 `
@@ -81,4 +82,17 @@ export const FriendQuote = styled.p`
     font-size: 25px;
     font-style: italic;
     margin-bottom: 50px;
+`
+
+export const GridContainer = styled.div`
+    display: grid;
+    margin-left: 30px;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+    grid-template-areas: "content content content";
+
+    @media screen and (max-width: 960px) {
+        margin-left: 0px;
+        grid-template-rows: 0.5fr;
+        grid-template-areas: "content";
+    }
 `

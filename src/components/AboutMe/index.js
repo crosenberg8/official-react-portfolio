@@ -1,5 +1,6 @@
 import React from 'react'
-import { AboutMeContainer,
+import {
+    AboutMeContainer,
     HeaderContainer,
     Header,
     ImgContainer,
@@ -9,12 +10,17 @@ import { AboutMeContainer,
     SubHeader,
     TestamentContainer,
     FriendName,
-    FriendQuote
+    FriendQuote,
+    GridContainer
 } from './AboutMeElements'
 import techTowerPhoto from "../../images/connor-tech-tower.jpg"
 import ImageSlider from '../ImageSlider/ImageSlider'
 import { SliderData } from '../ImageSlider/SliderData'
 import { shivamData, garrettData, adithyaData } from './Data'
+import { itemWLogoArray } from '../GridItemWLogo/Data'
+import { itemWOLogoArray } from '../GridItemWOLogo/Data'
+import GridItemWLogo from '../GridItemWLogo'
+import GridItemWOLogo from '../GridItemWOLogo'
 
 const AboutMe = () => {
     return (
@@ -24,7 +30,7 @@ const AboutMe = () => {
                     <Header>Education & Honors</Header>
                 </HeaderContainer>
                 <ImgContainer>
-                    <Img src={techTowerPhoto}/>
+                    <Img src={techTowerPhoto} />
                 </ImgContainer>
                 <SummaryContainer>
                     <Summary>
@@ -37,8 +43,8 @@ const AboutMe = () => {
                 <HeaderContainer>
                     <Header>So... what kind of person am I?</Header>
                 </HeaderContainer>
-                <SubHeader>While I <i>COULD</i> go and summarize who I am in a short paragraph or two... thats kinda lame.... So, let’s see what my amazing friends have to say!!</SubHeader>           
-                <ImageSlider slides={SliderData}/>
+                <SubHeader>While I <i>COULD</i> go and summarize who I am in a short paragraph or two... thats kinda lame.... So, let’s see what my amazing friends have to say!!</SubHeader>
+                <ImageSlider slides={SliderData} />
                 <TestamentContainer>
                     <FriendName>{garrettData.friendName}</FriendName>
                     <FriendQuote>" {garrettData.friendQuote} "</FriendQuote>
@@ -47,7 +53,22 @@ const AboutMe = () => {
                     <FriendName>{adithyaData.friendName}</FriendName>
                     <FriendQuote>" {adithyaData.friendQuote} "</FriendQuote>
                 </TestamentContainer>
-                <SubHeader><i>Thanks guys!! :) </i> Alright, To finish this section out, I would also say that I am ...</SubHeader>
+                <SubHeader><i>Thanks guys!! :) </i> Alright, to finish this section out, I would also say that I am ...</SubHeader>
+                <GridContainer>
+                    {itemWOLogoArray.map((value, index) => {
+                        return (
+                            <GridItemWOLogo {...value} />
+                        )
+                    })}
+                </GridContainer>
+                <SubHeader>BONUS!! Here are some of my interests! Click on them to learn/see more!</SubHeader>
+                <GridContainer>
+                    {itemWLogoArray.map((value, index) => {
+                        return (
+                            <GridItemWLogo {...value} />
+                        )
+                    })}
+                </GridContainer>
             </AboutMeContainer>
         </>
     )

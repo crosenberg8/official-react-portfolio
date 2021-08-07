@@ -1,5 +1,6 @@
 import React from 'react'
-import { ProjectsContainer,
+import {
+    ProjectsContainer,
     ImgContainer,
     Img,
     SummaryContainer,
@@ -14,7 +15,7 @@ import { ProjectsContainer,
     HeaderContainer
 } from './ProjectElements'
 
-const ProjectSection = ({id, header, img, imgHeight, imgWidth, summary, skills, projectLinkDesc, projectLinkUrl}) => {
+const ProjectSection = ({ id, header, img, imgHeight, imgWidth, summary, skills, projectLinkDesc, projectLinkUrl, isAgency, projectSite, hasSite }) => {
     return (
         <>
             <ProjectsContainer id={id}>
@@ -22,7 +23,7 @@ const ProjectSection = ({id, header, img, imgHeight, imgWidth, summary, skills, 
                     <Header>{header}</Header>
                 </HeaderContainer>
                 <ImgContainer>
-                    <Img src={img} height={imgHeight} width={imgWidth}/>
+                    {isAgency === true ? <Img src={img} height={imgHeight} width={imgWidth} className="agencyPNG" /> : <Img src={img} height={imgHeight} width={imgWidth} />}
                 </ImgContainer>
                 <SummaryContainer>
                     <Summary><b>Summary: </b>{summary}</Summary>
@@ -36,7 +37,10 @@ const ProjectSection = ({id, header, img, imgHeight, imgWidth, summary, skills, 
                     </SkillsList>
                 </SkillsContainer>
                 <ProjectLinkContainer>
-                        <ProjectLink href={projectLinkUrl}>{projectLinkDesc}</ProjectLink>
+                    <ProjectLink href={projectLinkUrl}>{projectLinkDesc}</ProjectLink>
+                    <br></br>
+                    <br></br>
+                    {hasSite === true ? <ProjectLink href={projectSite}>Click here to view the project's live site!!</ProjectLink> : null}
                 </ProjectLinkContainer>
             </ProjectsContainer>
         </>

@@ -61,16 +61,19 @@ export const ResumeLink = styled.a`
     font-size: 20px;
     vertical-align: center;
     color: #7ddfff;
+    text-decoration: none;
 `
 
 export const Heading = styled.h1`
     margin-top: 160px;
     text-align: center;
     color: #fff;
+    margin-bottom: 700px;
 
     @media screen and (max-width: 960px) {
         margin-left: 10px;
         margin-right: 10px;
         font-size: 15px;
+        margin-bottom: 700px;
     }
 `
