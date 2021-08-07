@@ -8,20 +8,5 @@ export const SeparatorContainer = styled.div`
 `
 
 export const Heading = styled.h1`
-    font-size: 100px;
-    font-family: 'Raleway';
-    font-weight: 900;
-    color: #808080;
-
-    @media screen and (max-width: 960px) {
-        font-size: 25px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    @media screen and (max-width: 1300px) {
-        font-size: 70px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+    
 `

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d769e82f.chunk.css",
+    "main.js": "/static/js/main.dcdaedba.chunk.js",
+    "main.js.map": "/static/js/main.dcdaedba.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c48e5c75.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c48e5c75.js.map",
+    "static/js/2.077efb42.chunk.js": "/static/js/2.077efb42.chunk.js",
+    "static/js/2.077efb42.chunk.js.map": "/static/js/2.077efb42.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d769e82f.chunk.css.map": "/static/css/main.d769e82f.chunk.css.map",
+    "static/js/2.077efb42.chunk.js.LICENSE.txt": "/static/js/2.077efb42.chunk.js.LICENSE.txt",
+    "static/media/agency_background.4f23dcab.png": "/static/media/agency_background.4f23dcab.png",
+    "static/media/anime.cac025c7.svg": "/static/media/anime.cac025c7.svg",
+    "static/media/avatar.ee6fb23c.png": "/static/media/avatar.ee6fb23c.png",
+    "static/media/climbing.36744e3d.svg": "/static/media/climbing.36744e3d.svg",
+    "static/media/coding.55518e92.svg": "/static/media/coding.55518e92.svg",
+    "static/media/connor-tech-tower.20be3f91.jpg": "/static/media/connor-tech-tower.20be3f91.jpg",
+    "static/media/daily-journal.09c26878.jpg": "/static/media/daily-journal.09c26878.jpg",
+    "static/media/first-website.879ba5e5.png": "/static/media/first-website.879ba5e5.png",
+    "static/media/friends-home.dd44170b.JPG": "/static/media/friends-home.dd44170b.JPG",
+    "static/media/friends-tech.ea9bb249.JPG": "/static/media/friends-tech.ea9bb249.JPG",
+    "static/media/frisbee.e3732088.JPG": "/static/media/frisbee.e3732088.JPG",
+    "static/media/manga.fec91d3f.svg": "/static/media/manga.fec91d3f.svg",
+    "static/media/mutr-home.bb9f761d.jpg": "/static/media/mutr-home.bb9f761d.jpg",
+    "static/media/password-generator-screenshot.dba64333.jpg": "/static/media/password-generator-screenshot.dba64333.jpg",
+    "static/media/scuba.754e267c.svg": "/static/media/scuba.754e267c.svg",
+    "static/media/skateboard.1def3c5e.svg": "/static/media/skateboard.1def3c5e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c48e5c75.js",
+    "static/js/2.077efb42.chunk.js",
+    "static/css/main.d769e82f.chunk.css",
+    "static/js/main.dcdaedba.chunk.js"
+  ]
+}

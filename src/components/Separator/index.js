@@ -5,7 +5,7 @@ const Separator = ({headerText, id}) => {
     return (
         <>
             <SeparatorContainer id={id}>
-                <Heading>{headerText}</Heading>
+                <Heading className="header-text">{headerText}</Heading>
             </SeparatorContainer>
         </>
     )

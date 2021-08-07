@@ -70,3 +70,21 @@ body {
   background-color: #fff;
   border-radius: 20px;
 }
+
+.header-text {
+  font-size: 100px;
+  font-family: 'Raleway';
+  font-weight: 900;
+  color: #808080;
+}
+
+@media screen and (max-width: 960px) {
+  .header-text {
+    font-size: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: underline;
+    hyphens: auto;
+  }
+}

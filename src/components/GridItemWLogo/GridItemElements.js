@@ -9,7 +9,7 @@ export const GridItemContainer = styled.a`
     padding: 15px;
     border-radius: 30px;
     margin: 50px;
-
+    
     &:hover {
         padding: 10px;
         border: 5px solid #000;

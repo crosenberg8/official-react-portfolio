@@ -89,6 +89,7 @@ export const GridContainer = styled.div`
     margin-left: 30px;
     grid-template-rows: 0.3fr 0.3fr 0.3fr;
     grid-template-areas: "content content content";
+    justify-content: center;
 
     @media screen and (max-width: 960px) {
         margin-left: 0px;
