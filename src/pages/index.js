@@ -8,11 +8,22 @@ import ProjectSectionWVideo from '../components/ProjectSectionWVideo'
 import { firstWebsite, javascriptJournalWebsite, theAgency, mutrTransportation, resgt } from '../components/ProjectSection/Data'
 import { javaFxProject } from '../components/ProjectSectionWVideo/Data'
 import AboutMe from '../components/AboutMe'
+import Sidebar from '../components/Sidebar'
+import { useState } from 'react'
+import ContactMe from '../ContactMe'
+import Footer from '../components/Footer'
 
 const Home = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+        setIsOpen(!isOpen);
+    }
+
     return (
         <>
-            <Navbar />
+            <Sidebar isOpen={isOpen} toggle={toggle}/>
+            <Navbar toggle={toggle}/>
             <IntroSection />
             <Separator {...aboutObj} />
             <AboutMe />
@@ -25,6 +36,8 @@ const Home = () => {
             <ProjectSection {...mutrTransportation} />
             <ProjectSection {...resgt} />
             <Separator {...contactObj} />
+            <ContactMe />
+            <Footer />
         </>
     )
 }

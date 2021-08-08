@@ -1,10 +1,18 @@
 import React from 'react'
-import {Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks} from './NavbarElements'
+import {Nav,
+    NavbarContainer,
+    NavLogo,
+    NavMenu,
+    NavItem, 
+    NavLinks,
+    MobileIcon
+} from './NavbarElements'
 import {animateScroll as scroll} from 'react-scroll'
+import {FaBars} from 'react-icons/fa'
 
 
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
 
 
     const toggleHome = () => {
@@ -16,6 +24,9 @@ const Navbar = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/" onClick={toggleHome}>Connor Rosenberg</NavLogo>
+                    <MobileIcon onClick={toggle}>
+                        <FaBars />
+                    </MobileIcon>
                     <NavMenu>
                         <NavItem>
                             <NavLinks to="about"
