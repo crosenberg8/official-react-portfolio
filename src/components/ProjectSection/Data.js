@@ -3,6 +3,21 @@ import DailyJournal from "../../images/daily-journal.jpg"
 import AgencyAI from "../../images/agency_background.png"
 import MUTR from "../../images/mutr-home.jpg"
 import RES from "../../images/resgt.jpg"
+import REACT_WEBSITE from "../../images/react-website.jpg"
+
+export const reactPortfolioWebsite = {
+    id: "react-website",
+    header: "React Portfolio Website",
+    img: REACT_WEBSITE,
+    imgHeight: "570px",
+    imgWidth: "1000px",
+    summary: "The project shown below this one (the - Basic HTML/CSS/JS - Hand Coded Portfolio Website) was my first ever website built with only HTML/CSS and a little bit of JS for the contact me form. Over this summer, I taught myself how to create websites using the MERN stack, which includes REACT as a front-end technology. Therefore, I decided it was time to revamp my portfolio website with a newer technology, which was the purpose of this project! I didn't get to display my Node JS skills or Mongo DB skills with this, as my hosting provider performs all of the hosting stuff on their end, and my website doesn't need a database.",
+    skills: ["React JS", "HTML", "CSS", "JS", "Adobe XD", "NPM and node modules", "Git/GitHub"],
+    projectLinkDesc: "Click here to view this project's files!",
+    projectLinkUrl: "https://github.com/crosenberg8/official-react-portfolio",
+    hasSite: true,
+    projectSite: "http://connorrosenberg.com/"
+}
 
 export const firstWebsite = {
     id: "first-website",
@@ -15,7 +30,7 @@ export const firstWebsite = {
     projectLinkDesc: "Click here to view this project's files!",
     projectLinkUrl: "https://drive.google.com/drive/folders/1frRE7_ldC7jMy8gALU9mqWHb7ktkS2Xh?usp=sharing",
     hasSite: true,
-    projectSite: "http://connorrosenberg.com"
+    projectSite: "https://crosenberg8.github.io/Static-Portfolio-Website/"
 }
 
 export const javascriptJournalWebsite = {

@@ -39,8 +39,8 @@ export const Img = styled.img`
     height: 50%;
     width: 50%;
     @media screen and (max-width: 960px) {
-        height: 75%;
-        width: 75%;
+        height: 100%;
+        width: 100%;
     }
 `
 
@@ -64,6 +64,10 @@ export const Summary = styled.p`
 export const SubHeader = styled.h2`
     text-align: center;
     color: #fff;
+
+    @media screen and (max-width: 960px) {
+        font-size: 20px;
+    }
 `
 
 export const TestamentContainer = styled.div`
@@ -75,6 +79,10 @@ export const FriendName = styled.h2`
     color: #fff;
     font-size: 32px;
     text-decoration: underline;
+
+    @media screen and (max-width: 960px) {
+        font-size: 25px;
+    }
 `
 
 export const FriendQuote = styled.p`
@@ -82,6 +90,10 @@ export const FriendQuote = styled.p`
     font-size: 25px;
     font-style: italic;
     margin-bottom: 50px;
+
+    @media screen and (max-width: 960px) {
+        font-size: 18px;
+    }
 `
 
 export const GridContainer = styled.div`

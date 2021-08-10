@@ -36,8 +36,8 @@ export const ImgContainer = styled.div`
 
 export const Img = styled.img`
     @media screen and (max-width: 960px) {
-        height: 75%;
-        width: 75%;
+        height: 100%;
+        width: 100%;
     }
 `
 

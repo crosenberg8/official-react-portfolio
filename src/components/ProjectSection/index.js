@@ -40,7 +40,7 @@ const ProjectSection = ({ id, header, img, imgHeight, imgWidth, summary, skills,
                     <ProjectLink href={projectLinkUrl}>{projectLinkDesc}</ProjectLink>
                     <br></br>
                     <br></br>
-                    {hasSite === true ? <ProjectLink href={projectSite}>Click here to view the project's live site!!</ProjectLink> : null}
+                    {hasSite === true ? <ProjectLink href={projectSite}><u>Click here to view the project's live site!!</u></ProjectLink> : null}
                 </ProjectLinkContainer>
             </ProjectsContainer>
         </>

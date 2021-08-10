@@ -18,7 +18,7 @@ export const itemWLogoArray = [
         id: "climbing",
         itemText: "CLIMBING",
         itemSVG: CLIMBING_ICON,
-        mediaLink: "https://www.instagram.com/p/CJhC_O1Fr_uHxOqyqr5BzTGL5KwDaSZhaVqOzo0/"
+        mediaLink: "https://www.youtube.com/watch?v=_aAJRc_ATNk"
     },
     {
         id: "manga",
@@ -36,12 +36,12 @@ export const itemWLogoArray = [
         id: "skateboarding",
         itemText: "SKATEBOARDING",
         itemSVG: SKATEBOARD_ICON,
-        mediaLink: "https://www.instagram.com/p/CNMA4d-lAn18B0JCefuqL0fcoJgCe56p8jxLTE0/"
+        mediaLink: "https://docs.google.com/document/d/197TScznpo9Vzw_-R_nAzj9FZPj_LGdGv0RfE6nASp0k/edit?usp=sharing"
     },
     {
         id: "scuba-diving",
         itemText: "SCUBA-DIVING",
         itemSVG: SCUBA_ICON,
-        mediaLink: "https://www.instagram.com/p/BksQ_oenF8lry5m2vj3D-0WPyeWM4FxToYMuu80/"
+        mediaLink: "https://drive.google.com/drive/folders/1vbuE5OpqC04_8CNjKtYHOn6XhXTpL0dS?usp=sharing"
     }
 ]

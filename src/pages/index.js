@@ -5,7 +5,7 @@ import Separator from '../components/Separator'
 import { aboutObj, projectsObj, extracurricularsObj, contactObj } from '../components/Separator/Data'
 import ProjectSection from '../components/ProjectSection'
 import ProjectSectionWVideo from '../components/ProjectSectionWVideo'
-import { firstWebsite, javascriptJournalWebsite, theAgency, mutrTransportation, resgt } from '../components/ProjectSection/Data'
+import { reactPortfolioWebsite, firstWebsite, javascriptJournalWebsite, theAgency, mutrTransportation, resgt } from '../components/ProjectSection/Data'
 import { javaFxProject } from '../components/ProjectSectionWVideo/Data'
 import AboutMe from '../components/AboutMe'
 import Sidebar from '../components/Sidebar'
@@ -28,6 +28,7 @@ const Home = () => {
             <Separator {...aboutObj} />
             <AboutMe />
             <Separator {...projectsObj} />
+            <ProjectSection {...reactPortfolioWebsite} />
             <ProjectSection {...firstWebsite} />
             <ProjectSection {...javascriptJournalWebsite} />
             <ProjectSectionWVideo {...javaFxProject} />

@@ -29,7 +29,7 @@ export const ContentContainer = styled.div`
 
 export const GridText = styled.h1`
     color: #000;
-    font-size: 15px;
+    font-size: 14px;
     background-color: #7ddfff; 
     align-self: center;
     // stroke-color: #000;
@@ -38,8 +38,8 @@ export const GridText = styled.h1`
 export const GridImg = styled.img`
     background-color: #7ddfff;
     fill: #fff;
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     margin: 15px;
     align-self: center;
 `
