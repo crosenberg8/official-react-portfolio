@@ -53,7 +53,7 @@ const AboutMe = () => {
                     <FriendName>{adithyaData.friendName}</FriendName>
                     <FriendQuote>" {adithyaData.friendQuote} "</FriendQuote>
                 </TestamentContainer>
-                <SubHeader><i>Thanks guys!! :) </i> Alright, to finish this section out, I would also say that I am ...</SubHeader>
+                <SubHeader><i>Thanks guys!! </i>However, I would also like to add on by saying that I am ...</SubHeader>
                 <GridContainer>
                     {itemWOLogoArray.map((value, index) => {
                         return (
@@ -61,7 +61,7 @@ const AboutMe = () => {
                         )
                     })}
                 </GridContainer>
-                <SubHeader>BONUS!! Here are some of my interests! Click on them to learn/see more!</SubHeader>
+                <SubHeader>Alright alright thats enough bragging. So, what about my interests? Click on the boxes to learn/see more!</SubHeader>
                 <GridContainer>
                     {itemWLogoArray.map((value, index) => {
                         return (

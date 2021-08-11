@@ -20,8 +20,9 @@ export const Img = styled.img`
     width: 250px;
 
     @media screen and (max-width: 960px) {
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
+        margin-top: -35px;
     }
 `
 
@@ -33,16 +34,18 @@ export const AboutMeWrapper = styled.div`
 `
 
 export const AboutMe = styled.p`
-    font-size: 25px;
+    text-indent: 50px;
+    font-size: 23px;
     max-width: 960px;
     text-align: left;
     color: #fff;
 
     @media screen and (max-width: 960px) {
+        text-indent: 30px;
         margin-top: -10px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 15px;
+        font-size: 14px;
     }
 `
 
@@ -65,7 +68,7 @@ export const ResumeLink = styled.a`
 `
 
 export const Heading = styled.h1`
-    margin-top: 160px;
+    margin-top: 120px;
     text-align: center;
     color: #fff;
     margin-bottom: 700px;

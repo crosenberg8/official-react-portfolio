@@ -20,7 +20,7 @@ const IntroSection = () => {
                 </ImgWrapper>
                 <AboutMeWrapper>
                     <AboutMe>
-                        I'm an undergraduate student at the Georgia Institute of Technology, majoring in Computer Science, with focuses/threads in Artificial Intelligence and Media. Outside of my passion for coding, I have a variety of interests! I am a ………………..
+                        My name is Connor Rosenberg, and I am an undergraduate student in the Georgia Institute of Technology's College of Computing. I am a Computer Science major, with focuses/threads in Artificial Intelligence and Media. Outside of the classroom, I am involved in a variety of different clubs and activities which I showcase throughout this website! Navigate through this website too see all the fun things I'm up to, from cool website development projects, to rock climbing with my friends! I hope you enjoy!
                     </AboutMe>
                 </AboutMeWrapper>
                 <ResumeContainer>
